@@ -1,0 +1,139 @@
+<!-- glow effect -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100&effect=neon">
+    <!--    font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--     google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Styles/base.css" type="text/css">
+    <style>
+        p{
+            letter-spacing: 2px;
+        }
+        p, h1, h2{
+            color: #0065ff;
+        }
+        .main, .sidebar, .sidebar2{
+            border: solid 4px #0065ff;
+            padding: 5px;
+        }
+        h1{
+            font-size: 3em;
+            text-align: center;
+        }
+        h2{
+            font-size: 2em;
+            text-align: center;
+        }
+        .wrapper{
+            background-image:url(../Images/YaleLibrary.gif); 
+            text-indent: 5%;
+            
+        }
+        p{
+            padding: 5px;
+        }
+        .font-effect-neon {
+            text-shadow: 0 0 0.1em #fff, 0 0 0.2em #fff, 0 0 0.3em #fff, 0 0 0.4em #f7f, 0 0 0.6em #f0f, 0 0 0.8em #f0f, 0 0 1em #f0f, 0 0 1.2em #f0f;
+            color: #0065ff;
+        }
+         @media screen and (min-width: 936px){
+             .wrapper{
+                 display: grid;
+                 grid-template-columns: 1fr 2fr;
+             }
+             /* .sidebar, .sidebar2{
+                 width: 50%;
+             }
+             .cta{
+                 flex-wrap: wrap;
+                 width: 50%;
+             } */
+        
+    </style>
+</head>
+<body>
+
+            
+               <section id="mainHeader">
+                <header class="menu">
+                    <img src="../Images/Yale-Neon-optimal.gif" alt="yale logo">
+                    <input type="checkbox" id="checkbox">
+                        <nav>
+                           <div class="font-effect-neon">
+                            <ul>
+                                <li><a href="../index.html">Home</a></li>
+                                <li><a href="aboutUs.html">About Us</a></li>
+                                <li><a href="#apply">Apply</a></li>
+                                <li><a href="#social">Social</a></li>
+                                <li><a href="../Pages/Donate.html">Donate</a></li>
+                                <li><a href="#events">Events</a></li>
+                                <li><a href="../Pages/Login.html">Login</a></li>
+                                <li><a href="#financialAid">Financial Aid</a></li>
+                               <li class="subnav"><a href="../Pages/student_Program.html">Student Programs</a>
+    <div class="subnav-content">
+      <a href="../Pages/undergrad_stu.html">Undergraduate Studies</a>
+      <a href="../Pages/graduate_stu.html">Graduate Studies</a>
+      <a href="../Pages/summer_stu.html">Summer Studies</a>
+    </div>
+                                   </li>
+                            </ul>
+                            </div>
+                        </nav>
+                    <label for="checkbox">
+                        <i class="fas fa-bars menuIcon"></i>
+                    </label>
+                </header>
+        </section> <!-- end mainHeader section  -->
+            <div class="wrapper">
+                    <div class="main font-effect-neon">
+                        <h1>Mission Statment</h1>
+                            <p>The mission of the Yale School of Art is to provide students with intellectually informed, hands-on instruction in the practice of an array of visual arts media within the context of a liberal arts university. As a part of the first institution of higher learning to successfully integrate a studio-based education into such a broad pedagogical framework, the Yale School of Art has a long and distinguished history of training artists of the highest caliber. A full-time faculty of working artists in conjunction with a diverse cross-section of accomplished visiting artists collaborate to design a program and foster an environment where the unique talents and perspectives of individual students can emerge and flourish.
+                            The School of Art is founded on the belief that art is a fundamental force in national and international culture, and that one of the primary standards by which societies are judged is the quality, creative freedom, critical insight, and formal and technical innovation of the visual art they produce. The Yale School of Art teaches at the graduate and undergraduate levels, and consequently the student body consists of those whose primary or exclusive focus is art as well as those for whom art is an essential part of a varied course of inquiry. The school currently offers degrees and undergraduate majors in the areas of graphic design, painting/printmaking, photography, and sculpture.
+                            </p>
+                        </div>
+                   <div class="sidebar font-effect-neon schoolInfo">
+                       <h2>School Information</h2>
+                        <address>Yale School of Art 1156 Chapel Street, POB 208339 New Haven, Connecticut, 06520-8339
+                        </address>
+                   
+                   
+                       <h2>A Message From The Dean</h2>
+                       <p>The Yale School of the Fine Arts opened in 1869 as the first art school connected with an institution of higher learning in the United States. Today, as the leading M.F.A. program in the country, the Yale School of Art remains posited within the larger research university, providing our students with the opportunity for a broader education in visual arts and graphic design. We currently augment the existing and excellent studio-based education with mandatory courses in the department of critical practice in addition to an engaging selection of elective courses and workshops that explore the intersections of art through cultural, social, political, and economic perspectives. Students work closely with a renowned full-time and tenured faculty together with a visiting faculty of internationally recognized artists to develop an individual professional practice. Graduates of the Yale School of Art contribute to the field of contemporary art in various and unique capacities as artists, educators, and community mediators.
+
+                        This bulletin details the course requirements and policies of the M.F.A. program, taking into account that it extends beyond the School into a wider constellation of programs and workshops. The porousness of the M.F.A. program allows the School to respond to the evolving interests of its students in areas and practices beyond those offered within the core curriculum.
+
+                        The School of Art recognizes that an individual student’s experience is not limited to an existence within an enclosed intellectual and artistic preserve, but is also one that is interrelational, transformative, and identify-forming. Being a professional student within Yale University opens avenues of cooperation across disciplines. While this includes the traditional and established relationships with the Schools of Architecture, Drama, and Music, it also presents discussions within the broader sciences and humanities, as well as opportunities with the Yale University Art Gallery, Yale Center for British Art, and individual Yale libraries such as the Beinecke Rare Book and Manuscript Library.
+
+                        As a professional school of visual art and graphic design, the Yale School of Art upholds the value of autonomy within and around developing an artist’s studio practice while preserving the development of an engaged student community wherein alterity is respected, diversity sought, and the freedom of artistic expression coveted.
+
+                        Welcome.
+
+                        Marta Kuzma
+
+                        Stavros Niarchos Foundation Dean and Professor of Critical Practice
+
+                        Yale School of Art</p>
+                   </div>
+                </div>
+                       
+                                                                                                  
+        <footer>
+           <p>Yale Art Student &copy; 2020</p>
+           <!-- p>a[#]*4-->
+           <p>
+               <a href="#"><i class="far fa-envelope"></i></a>
+               <a href="#"><i class="fab fa-facebook-square"></i></a>
+               <a href="#"><i class="fab fa-twitter-square"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+              </p>
+        </footer>
+</body>
+</html>
+
+
+
+
+
+
